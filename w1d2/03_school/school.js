@@ -31,7 +31,7 @@ class Student extends Person {
   }
 
   // this method uses the "this" keyword to refer to the object that is invoking the function
-  getSchoolLevel = function () {
+  getSchoolLevel() {
     if (this.age < 11) {
       console.log("\n" + this.name + " is in elementary school.");
     }

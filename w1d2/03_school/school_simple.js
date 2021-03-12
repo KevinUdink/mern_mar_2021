@@ -1,5 +1,6 @@
 // To visualize how this code works, copy and paste this in to the following website:
 //    http://www.pythontutor.com/visualize.html#mode=edit
+// Be sure to select Javascript as the language!
 
 class Person {
   constructor(name, age) {

@@ -1,19 +1,27 @@
 // let's look at students and teachers in a hierarchy
 // classes - teacher and student
 
-/*
-Teacher
+/* 
+Person - Parent to Teacher and Student
 Attributes
-    Subject they teach
-    Gender
     Name
-    Room Number
-    Weight
-    Height
+    Gender
     Age
+    Height
+    Weight
 
 Methods
     Eat
+
+*/
+
+/*
+Teacher EXTENDS Person
+Attributes
+    Subject they teach
+    Room Number
+
+Methods
     Grade
     sleep
     Write
@@ -21,13 +29,8 @@ Methods
 */
 
 /*
-Student
+Student EXTENDS Person
 Attributes
-    Name
-    Gender
-    Age
-    Height
-    Weight
     GPA
     List of Teachers
     List of Subjects / classes
@@ -37,7 +40,6 @@ Methods
     Learn
     Take notes
     study
-    Eat
     Ask Questions
     Take Test
     Turn in Homework

@@ -35,4 +35,11 @@ function square(num1, callbackFunction) {
 //    When you pass a function as an argument DO NOT use parenthesis
 //    if you use parenthesis, you are invoking the function
 //    we need it to be run AFTER the work has completed
+console.log("\nAdd function");
+add(10, 5, displayResult);
+add(10, 5, verboseDisplayResult);
+
+console.log("\nSquare function");
+square(10, displayResult);
+square(10, verboseDisplayResult);
 

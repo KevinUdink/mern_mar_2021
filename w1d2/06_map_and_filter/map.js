@@ -25,3 +25,6 @@ const pokemon = [
 //    map can ONLY work on arrays
 //    it will go through each element in the array and do the same thing with each element
 
+pokemon.map((onePokemon, index) => {
+  console.log(`Pokemon name: ${onePokemon.name}  and I am index number: ${index}`);
+});

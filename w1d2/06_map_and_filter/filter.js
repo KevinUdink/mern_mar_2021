@@ -23,6 +23,10 @@ const pokemon = [
 
 // only things that evaluate to true will be included in the returned array
 
+const filteredPokemon = pokemon.filter((onePokemon, index) => {
+  console.log("pokemeon name: " + onePokemon.name + " index: " + index);
+  return index > 14;
+});
 
 filteredPokemon.map((pokeObj, index) => {
   console.log(`my name is: ${pokeObj.name} and I am in index: ${index}`)

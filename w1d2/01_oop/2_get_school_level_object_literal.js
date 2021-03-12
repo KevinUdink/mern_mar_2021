@@ -31,6 +31,6 @@ let student2 = {
 }
 
 student1.getSchoolLevel();   
-student2.getSchoolLevel();   
+student2.getSchoolLevel();
 // notice how the student object already has all the information
 //  it needs and so there are no parameters

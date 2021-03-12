@@ -3,8 +3,9 @@
 // Be sure to select Javascript as the language!
 
 class Person {
-  constructor(name, age) {
-    this.name = name;
+  constructor(firstName, lastName, age) {
+    this.firstName = firstName;
+    this.lastName = lastName;
     this.age = age;
   }
 
@@ -14,8 +15,8 @@ class Person {
 }
 
 class Student extends Person {
-  constructor(name, age, gpa = 4.0) {
-    super(name, age);
+  constructor(firstName, lastName, age, gpa = 4.0) {
+    super(firstName, lastName, age);
     this.gpa = gpa;
   }
 
@@ -34,8 +35,8 @@ class Student extends Person {
 }
 
 class Teacher extends Person {
-  constructor(name, age, subject = "all") {
-    super(name, age);
+  constructor(firstName, lastName, age, subject = "all") {
+    super(firstName, lastName, age);
     this.subject = subject;
   }
 }
@@ -44,7 +45,7 @@ class Teacher extends Person {
 //-------------------------------------------------------------------------------------------
 // Let's create some instances and try this out!
 //-------------------------------------------------------------------------------------------
-const student1 = new Student("billy", 14, 3.5);
-const teacher1 = new Teacher("Mrs Thompson", 29, "Math");
+const student1 = new Student("billy", "bob", 14, 3.5);
+const teacher1 = new Teacher("Mrs", "Thompson", 29, "Math");
 
 Student.getSchoolLevel();

@@ -17,5 +17,3 @@ function getSchoolLevel(studentName, studentAge) {
 
 getSchoolLevel(student1Name, student1Age);
 getSchoolLevel(student2Name, student2Age);
-getSchoolLevel(student3Name, student3Age);
-getSchoolLevel(student4Name, student4Age);
